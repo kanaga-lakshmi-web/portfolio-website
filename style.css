@@ -1956,6 +1956,15 @@ footer {
   }
   .contact-inner{
     grid-template-columns:1fr;
+    width:100%;
+  }
+  .contact-form{
+    width:100%;
+    box-sizing:border-box;
+  }
+  .contact-item value{
+    overflow-wrap:anywhere;
+    word-break:break-word;
   }
   .lightbox-art{
     width: 400px;
