@@ -1966,7 +1966,7 @@ footer {
     width:100%;
     box-sizing:border-box;
   }
-  .contact-item value{
+  .contact-item .value{
     overflow-wrap:anywhere;
     word-break:break-word;
   }
