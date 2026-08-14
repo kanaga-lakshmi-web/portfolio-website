@@ -1954,7 +1954,9 @@ footer {
   .poster-card.is-active {
     transform: rotate(0deg) translateY(-14px) scale(1.06) !important;
   }
-  
+  .contact-inner{
+    grid-template-columns:1fr;
+  }
   .lightbox-art{
     width: 400px;
     height: 380px;
