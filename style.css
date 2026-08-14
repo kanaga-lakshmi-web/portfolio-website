@@ -1966,10 +1966,18 @@ footer {
     width:100%;
     box-sizing:border-box;
   }
-  .contact-item .value{
-    overflow-wrap:anywhere;
-    word-break:break-word;
+  
+  .contact-item > span:last-child {
+    min-width: 0;
+    flex: 1;
   }
+
+  .contact-item .value {
+    display: block;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+}
   .lightbox-art{
     width: 400px;
     height: 380px;
